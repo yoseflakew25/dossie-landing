@@ -22,14 +22,14 @@ const Hero = () => {
               Digitalization
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-600">
               Welcome to{" "}
               <span className="text-blue-500">
               DossieScholar
               </span>
             </h1>
 
-            <p className="text-lg text-gray-600 leading-relaxed max-w-2xl">
+            <p className="text-md text-gray-600 leading-relaxed max-w-2xl">
             Dossie Scholar offers a centralized digital repository that digitizes paper-based research papers from Ethiopian universities and beyond. Through LLM-powered text extraction and Agentic RAG technology, we provide a powerful tool for students, researchers, and academics to easily retrieve, analyze, and build upon existing knowledge.
 
             </p>

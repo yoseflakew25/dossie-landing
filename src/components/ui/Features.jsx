@@ -11,7 +11,7 @@ const Features = () => {
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-blue-500  sm:text-4xl md:mx-auto">
           What We Offer
         </h2>
-        <p className="text-base text-body-color md:text-lg">
+        <p className="text-base text-body-color md:text-md">
           This system aims to help students, researchers, and universities by digitizing academic research papers, making them more accessible, searchable, and shareable.
         </p>
       </div>
