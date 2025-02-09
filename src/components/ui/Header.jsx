@@ -43,7 +43,7 @@ export default function Header() {
   return (
     <header
       aria-label="Site Header"
-      className={`bg-[#f2f8ff] sticky top-0 z-50 transition-all duration-200 border-b ${
+      className={`bg-[#f9fbff] sticky top-0 z-50 transition-all duration-200 border-b ${
         isScrolled ? "bg-opacity-70 backdrop-blur-lg shadow-sm" : ""
       }`}
     >

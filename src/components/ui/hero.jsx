@@ -5,7 +5,7 @@ import heroPic from "../../assets/sec.png";
 
 const Hero = () => {
   return (
-    <section id="about" className="bg-[#f2f8ff]">
+    <section id="about" className="bg-[#f9fbff]">
       <div className="lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
        
 
