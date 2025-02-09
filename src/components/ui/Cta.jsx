@@ -6,13 +6,7 @@ const Cta = () => {
   return (
     <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24 mb-16">
       <div className="text-center">
-      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-primary font-medium mb-4">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-              </span>
-              Digital Innovation
-            </div>
+      
         <h2 className="text-3xl font-bold text-blue-500  sm:text-5xl">
           Your Records, Anytime, <br /> Anywhere
         </h2>

@@ -10,13 +10,7 @@ const Features3 = () => {
         <div className="lg:bg-[#f6f9ff] lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
         
           <div className="mx-8 md:w-7/12 lg:w-1/2">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-500 font-medium mb-4">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 "></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-              </span>
-              Digital Innovation
-            </div>
+        
             <h2 className="text-3xl font-bold text-blue-500  md:text-4xl">
             For Universities and Researchers
             </h2>

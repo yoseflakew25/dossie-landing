@@ -1,21 +1,18 @@
 import React from "react";
+import Image from "next/image"; 
+import getachew from "../../assets/getachew.jpg"
+import mengesha from "../../assets/mengesha.jpg"
 
 const Team = () => {
   return (
     <section id="team" className="px-32 py-16">
     <div className="container">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-primary font-medium mb-4">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-              </span>
-              Digital Innovation
-            </div>
+      
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-blue-500  sm:text-4xl md:mx-auto">
 Meet out Team        </h2>
             <p className="text-base text-body-color md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+                Our team is dedicated to delivering exceptional results through collaboration and innovation. We strive to exceed expectations and create impactful solutions for our clients.
             </p>
         </div>
 
@@ -23,7 +20,13 @@ Meet out Team        </h2>
             <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
                 <div className="mb-10 wow fadeInUp" data-wow-delay=".1s">
                     <div className="h-170px] relative z-10 mx-auto mb-6 w-[170px] rounded-full">
-                        <img src="./img/team-01.png" alt="image" className="w-full rounded-full" />
+                        <Image
+                          src={getachew}
+                          alt="image"
+                          className="w-full rounded-full"
+                          width={170}
+                          height={170}
+                        />
                         <span className="absolute top-0 left-0 z-[-1]">
                             <svg width="71" height="82" viewBox="0 0 71 82" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -151,12 +154,9 @@ Meet out Team        </h2>
                         </span>
                     </div>
                     <div className="text-center">
-                        <h4 className="mb-2 text-lg font-medium text-dark">
-                            Adveen Desuza
-                        </h4>
+                        <h4 className="mb-2 text-lg font-medium text-dark">Samuel Getachew</h4>
                         <p className="mb-5 text-sm font-medium text-body-color">
-                            UI Designer
-                        </p>
+Cofounder and CEO                        </p>
                         <div className="flex items-center justify-center">
                             <a href="javascript:void(0)" className="mx-2 flex h-8 w-8 items-center justify-center text-[#cdced6] hover:text-blue-500">
                                 <svg width="10" height="18" viewBox="0 0 10 18" className="fill-current">
@@ -187,7 +187,13 @@ Meet out Team        </h2>
             <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
                 <div className="mb-10 wow fadeInUp" data-wow-delay=".15s">
                     <div className="h-170px] relative z-10 mx-auto mb-6 w-[170px] rounded-full">
-                        <img src="./img/team-02.png" alt="image" className="w-full rounded-full" />
+                        <Image
+                          src={mengesha}
+                          alt="image"
+                          className="w-full rounded-full"
+                          width={170}
+                          height={170}
+                        />
                         <span className="absolute top-0 left-0 z-[-1]">
                             <svg width="71" height="82" viewBox="0 0 71 82" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -315,9 +321,9 @@ Meet out Team        </h2>
                         </span>
                     </div>
                     <div className="text-center">
-                        <h4 className="mb-2 text-lg font-medium text-dark">Jezmin uniya</h4>
+                        <h4 className="mb-2 text-lg font-medium text-dark">Samuel Mengesha</h4>
                         <p className="mb-5 text-sm font-medium text-body-color">
-                            Product Designer
+                            Cofounder and CTO
                         </p>
                         <div className="flex items-center justify-center">
                             <a href="javascript:void(0)" className="mx-2 flex h-8 w-8 items-center justify-center text-[#cdced6] hover:text-blue-500">

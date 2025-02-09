@@ -7,18 +7,12 @@ const Testimonial = () => {
 
 
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-primary font-medium mb-4">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-              </span>
-              Digital Innovation
-            </div>
+               
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-blue-500  sm:text-4xl md:mx-auto">
           What Out Users Say
         </h2>
                     <p className="text-base text-dark md:text-lg">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+                        Our platform has transformed the way we collaborate and share ideas. The intuitive design allows us to focus on what truly matters.
                     </p>
                 </div>
 
@@ -62,7 +56,7 @@ const Testimonial = () => {
                             </div>
                             <div className="mb-6 ud-testimonial-content">
                                 <p className="text-base tracking-wide text-body-color">
-                                    “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.
+                                    “I've seen a significant increase in productivity since implementing this platform. The intuitive interface and seamless collaboration features have been a game-changer for our team.”
                                 </p>
                             </div>
                             <div className="flex items-center ud-testimonial-info">
@@ -70,8 +64,8 @@ const Testimonial = () => {
                                     <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="author" />
                                 </div>
                                 <div className="ud-testimonial-meta">
-                                    <h4 className="text-sm font-semibold">Sabo Masties</h4>
-                                    <p className="text-xs text-[#969696]">Founder @ Rolex</p>
+                                    <h4 className="text-sm font-semibold">Emily R. Chen</h4>
+                                    <p className="text-xs text-[#969696]">Marketing Manager @ XYZ Corporation</p>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +109,7 @@ const Testimonial = () => {
                             </div>
                             <div className="mb-6 ud-testimonial-content">
                                 <p className="text-base tracking-wide text-body-color">
-                                    “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.
+                                    “The platform's automation features have streamlined our workflow, allowing us to focus on high-priority tasks and increase overall efficiency.”
                                 </p>
                             </div>
                             <div className="flex items-center ud-testimonial-info">
@@ -123,8 +117,8 @@ const Testimonial = () => {
                                     <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="author" />
                                 </div>
                                 <div className="ud-testimonial-meta">
-                                    <h4 className="text-sm font-semibold">Sabo Masties</h4>
-                                    <p className="text-xs text-[#969696]">Founder @ Rolex</p>
+                                    <h4 className="text-sm font-semibold">David K. Lee</h4>
+                                    <p className="text-xs text-[#969696]">Operations Manager @ ABC Inc.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +166,7 @@ const Testimonial = () => {
                             </div>
                             <div className="mb-6 ud-testimonial-content">
                                 <p className="text-base tracking-wide text-body-color">
-                                    “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.
+                                    “The platform's analytics and reporting features have given us valuable insights into our workflow, allowing us to make data-driven decisions and optimize our processes.”
                                 </p>
                             </div>
                             <div className="flex items-center ud-testimonial-info">
@@ -180,8 +174,8 @@ const Testimonial = () => {
                                     <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="author" />
                                 </div>
                                 <div className="ud-testimonial-meta">
-                                    <h4 className="text-sm font-semibold">Sabo Masties</h4>
-                                    <p className="text-xs text-[#969696]">Founder @ Rolex</p>
+                                    <h4 className="text-sm font-semibold">Sophia Patel</h4>
+                                    <p className="text-xs text-[#969696]">Business Analyst @ DEF Ltd.</p>
                                 </div>
                             </div>
                         </div>

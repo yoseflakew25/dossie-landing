@@ -17,13 +17,7 @@ const Section4 = () => {
             />
           </div>
           <div className="mx-8 md:w-7/12 lg:w-1/2">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-500 font-medium mb-4">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 "></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-              </span>
-              Digital Innovation
-            </div>
+          
             <h2 className="text-3xl font-bold text-blue-500  md:text-4xl">
             Why DossieScholar?
             </h2>
