@@ -34,8 +34,7 @@ const ContactPage = () => {
                         Our Location
                       </h5>
                       <p className="text-base text-body-color">
-                        401 Broadway, 24th Floor, Orchard Cloud View, London
-                      </p>
+                      917/29, Mexico Square, Addis Ababa, Ethiopia                       </p>
                     </div>
                   </div>
                   <div className="mb-8 flex w-[330px] max-w-full">
@@ -53,12 +52,19 @@ const ContactPage = () => {
                       <h5 className="mb-6 text-lg font-semibold">
                         How Can We Help?
                       </h5>
-                      <p className="text-base text-body-color">
-                        info@yourdomain.com
+                      <div className="flex flex-col gap-2">
+
+                      <p className="text-base text-blue-500">
+                      info@dossie.org
                       </p>
-                      <p className="text-base text-body-color">
-                        contact@yourdomain.com
+                      <p className="text-base text-blue-500">
+                      +251913537369
                       </p>
+
+                      <p className="text-base text-blue-500">
+                      +251913804024                      </p>
+                      </div>
+
                     </div>
                   </div>
                 </div>

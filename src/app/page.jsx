@@ -3,9 +3,11 @@ import { useEffect, useRef } from 'react';
 import HeroSection from "../components/ui/hero";
 import Features from "../components/ui/Features";
 import Features2 from "../components/ui/Features2";
+import Features3 from "../components/ui/Features3";
 import Faq from "../components/ui/Faq";
 import Cta from "../components/ui/Cta";
 import Testimonial from "../components/ui/Testimonial";
+import Brand1 from "../components/ui/Brand1";
 
 const animateOnScroll = (element) => {
   const observer = new IntersectionObserver((entries) => {
@@ -30,20 +32,27 @@ export default function Home() {
     <div>
       <div>
         <HeroSection />
+      </div>  
+      <div ref={(el) => (sections.current[2] = el)}>
+        <Brand1 />
       </div>
       <div ref={(el) => (sections.current[1] = el)}>
         <Features />
       </div>
-      <div ref={(el) => (sections.current[2] = el)}>
+     
+      <div ref={(el) => (sections.current[3] = el)}>
         <Features2 />
       </div>
-      <div ref={(el) => (sections.current[3] = el)}>
-        <Faq />
-      </div>
       <div ref={(el) => (sections.current[4] = el)}>
-        <Testimonial />
+        <Features3 />
       </div>
       <div ref={(el) => (sections.current[5] = el)}>
+        <Faq />
+      </div>
+      <div ref={(el) => (sections.current[6] = el)}>
+        <Testimonial />
+      </div>
+      <div ref={(el) => (sections.current[7] = el)}>
         <Cta />
       </div>
     </div>

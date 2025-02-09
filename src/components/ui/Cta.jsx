@@ -18,7 +18,7 @@ const Cta = () => {
         </h2>
 
         <p className="mx-auto mt-4 max-w-sm text-gray-500">
-          Log in to explore how this system enhances your ability to manage and retrieve customer records effectively.
+          Log in to explore how this system enhances your ability to manage and retrieve school records effectively.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4  justify-center items-center mt-8">

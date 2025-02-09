@@ -15,34 +15,35 @@ const Features = () => {
               Digital Innovation
             </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-blue-500  sm:text-4xl md:mx-auto">
-          What This System Offers
+          What We Offer
         </h2>
         <p className="text-base text-body-color md:text-lg">
-          This system aims to level the playing field so that businesses of any size can have easy, affordable, and secure access to their documents.
+          This system aims to help students, researchers, and universities by digitizing academic research papers, making them more accessible, searchable, and shareable.
         </p>
       </div>
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-4">
         <Card
-          title="Digitized Records"
-          subtitle="Easily access your customers' digitized records, converted directly from paper files using advanced technology."
+          title="Efficient Digitization"
+          subtitle="Convert paper-based research into digital formats."
           href="#"
           Icon={FiCreditCard}
         />
         <Card
-          title="Secure Access"
-          subtitle="A system built with robust security measures to ensure your data's confidentiality and integrity."
+          title="Searchability & Access"
+          subtitle="Centralized database for easy access to academic research."
           href="#"
           Icon={FiCreditCard}
         />
         <Card
-          title="Simplified Search"
-          subtitle="Find customer information quickly and effortlessly through our intuitive search functionality."
+          title="AI-Powered Retrieval"
+          subtitle="Advanced search features using AI for efficient literature review and research discovery."
           href="#"
           Icon={FiCreditCard}
         />
         <Card
-          title="Custom Integration"
-          subtitle="Designed to fit the unique workflows and requirements of EIC."
+          title="Enhanced Collaboration"
+          subtitle="Dossie Scholar fosters collaboration by providing a platform for students, researchers, and universities .
+"
           href="#"
           Icon={FiCreditCard}
         />

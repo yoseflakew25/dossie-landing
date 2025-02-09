@@ -11,7 +11,7 @@ const Faq = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
               </span>
-              Digital Innovation
+              DossieScholar
             </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-blue-500  sm:text-4xl md:mx-auto">
           Frequently Asked Questions (FAQs)
@@ -24,7 +24,7 @@ const Faq = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            What is the EIC Digital Record Management System?
+            What is DossieScholar and what services do you offer?
           </h2>
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
             <svg
@@ -42,7 +42,7 @@ const Faq = () => {
           </span>
         </summary>
         <p className="mt-4 leading-relaxed text-gray-700">
-          The system is designed for the Ethiopian Insurance Corporation to securely digitize and manage customer records, improving operational efficiency and client service delivery.
+          Answer: DossieScholar is a digital platform dedicated to transforming academic research accessibility. We digitize paper-based research papers from Ethiopian universities and beyond, creating a centralized repository that allows students, researchers, and academics to easily access, search, and share valuable knowledge. Our services include efficient digitization, enhanced searchability, and AI-powered retrieval tools.
         </p>
       </details>
 
@@ -51,7 +51,7 @@ const Faq = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            What features does this system provide?
+            How does DossieScholar utilize AI technology?
           </h2>
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
             <svg
@@ -69,7 +69,7 @@ const Faq = () => {
           </span>
         </summary>
         <p className="mt-4 leading-relaxed text-gray-700">
-          It offers digitized records, secure access, simplified search functionality, and custom integration tailored to EIC workflows.
+          Answer: We leverage cutting-edge AI technologies, including Large Language Models (LLMs) and Agentic RAG, to enhance the digitization and retrieval of academic research. These AI tools enable advanced text extraction, making it easier for users to conduct literature reviews and find relevant studies efficiently.
         </p>
       </details>
 
@@ -78,7 +78,7 @@ const Faq = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            How do I access the system?
+    Who can benefit from using DossieScholar?
           </h2>
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
             <svg
@@ -96,7 +96,7 @@ const Faq = () => {
           </span>
         </summary>
         <p className="mt-4 leading-relaxed text-gray-700">
-          You can log in or sign up through the provided portal to manage and retrieve records anytime, anywhere.
+          Answer: DossieScholar is designed for students, researchers, and universities, particularly those in Ethiopia and across Africa. Our platform fosters collaboration by allowing users to connect, share knowledge, and build on existing research, ultimately enhancing the academic community's collective efforts.
         </p>
       </details>
 
@@ -105,7 +105,7 @@ const Faq = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            Is my data secure on this platform?
+           Is DossieScholar affordable for universities and researchers?
           </h2>
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
             <svg
@@ -123,7 +123,7 @@ const Faq = () => {
           </span>
         </summary>
         <p className="mt-4 leading-relaxed text-gray-700">
-          Yes, the system uses advanced security measures to ensure the confidentiality and integrity of customer data.
+          Answer: Yes, DossieScholar offers affordable solutions with free core services available to all users. We also provide a low-cost AI assistant for research, ensuring that our platform remains accessible to universities and researchers while promoting efficient collaboration and literature review processes.
         </p>
       </details>
     </div>

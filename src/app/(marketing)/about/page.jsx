@@ -17,10 +17,9 @@ export default function About() {
               Digital Innovation
             </div>
             <h2 className="text-3xl font-bold text-blue-500  md:text-4xl">
-              IC’s Digital Record Management System
-            </h2>
+            Fast, Secure, and Easy Access            </h2>
             <p className="my-8 text-gray-600">
-              This system is designed exclusively for the Ethiopian Insurance Corporation to provide a seamless, secure, and efficient way to access and manage customer records. With our tailored solution, EIC can streamline operations and deliver superior service to its clients.
+            At Dossie Scholar, we are transforming academic research accessibility. Our mission is to help students, researchers, and universities by digitizing academic research papers, making them more accessible, searchable, and shareable. By leveraging cutting-edge AI technologies, including Large Language Models (LLMs) and Agentic RAG, we ensure that valuable knowledge is easily accessible to all.
             </p>
             <button className="bg-blue-500 text-white px-8 py-3 rounded-lg gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 flex items-center">
                   Get Started
