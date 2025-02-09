@@ -7,7 +7,7 @@ import Features3 from "../components/ui/Features3";
 import Faq from "../components/ui/Faq";
 import Cta from "../components/ui/Cta";
 import Testimonial from "../components/ui/Testimonial";
-import Brand1 from "../components/ui/Brand1";
+import Brand from "../components/ui/Brand";
 
 const animateOnScroll = (element) => {
   const observer = new IntersectionObserver((entries) => {
@@ -33,10 +33,10 @@ export default function Home() {
       <div>
         <HeroSection />
       </div>  
-      <div ref={(el) => (sections.current[2] = el)}>
-        <Brand1 />
+      <div>
+        <Brand />
       </div>
-      <div ref={(el) => (sections.current[1] = el)}>
+      <div ref={(el) => (sections.current[2] = el)}>
         <Features />
       </div>
      
