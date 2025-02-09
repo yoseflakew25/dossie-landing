@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import temp from "../../assets/secc.svg"; // Ensure the image is placed in the public folder
+import temp from "../../assets/secccc.svg"; // Ensure the image is placed in the public folder
 
 const Features3 = () => {
   return (
