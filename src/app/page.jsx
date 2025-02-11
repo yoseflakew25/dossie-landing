@@ -49,9 +49,9 @@ export default function Home() {
       <div ref={(el) => (sections.current[5] = el)}>
         <Faq />
       </div>
-      <div ref={(el) => (sections.current[6] = el)}>
+      {/* <div ref={(el) => (sections.current[6] = el)}>
         <Testimonial />
-      </div>
+      </div> */}
       <div ref={(el) => (sections.current[7] = el)}>
         <Cta />
       </div>
