@@ -1,89 +1,107 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import heroPic from "../../assets/sec.png";
+
+const containerVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      staggerChildren: 0.2,
+      duration: 0.8,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
+
+const imageVariants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
+};
 
 const Hero = () => {
   return (
-    <section id="about" className="bg-[#f9fbff]">
+    <motion.section
+      id="about"
+      className="bg-[#F9FBFF]"
+      initial="hidden"
+      animate="visible"
+    >
       <div className="lg:p-16 rounded-[4rem] space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
-       
+        <motion.div
+          className="w-full lg:w-1/2 space-y-8"
+          variants={containerVariants}
+        >
+          <motion.div
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-500 font-medium"
+            variants={itemVariants}
+          >
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
+            </span>
+            Digitalization
+          </motion.div>
 
+          <motion.h1
+            className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-600"
+            variants={itemVariants}
+          >
+            Welcome to <span className="text-blue-500">DossieScholar</span>
+          </motion.h1>
 
+          <motion.p
+            className="text-md text-gray-600 leading-relaxed max-w-2xl"
+            variants={itemVariants}
+          >
+            Dossie Scholar offers a centralized digital repository that digitizes
+            paper-based research papers from Ethiopian universities and beyond.
+            Through LLM-powered text extraction and Agentic RAG technology, we
+            provide a powerful tool for students, researchers, and academics to
+            easily retrieve, analyze, and build upon existing knowledge.
+          </motion.p>
 
-
-
-<div className="w-full lg:w-1/2 space-y-8 animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-500 font-medium">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 "></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
-              </span>
-              Digitalization
-            </div>
-
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-600">
-              Welcome to{" "}
-              <span className="text-blue-500">
-              DossieScholar
-              </span>
-            </h1>
-
-            <p className="text-md text-gray-600 leading-relaxed max-w-2xl">
-            Dossie Scholar offers a centralized digital repository that digitizes paper-based research papers from Ethiopian universities and beyond. Through LLM-powered text extraction and Agentic RAG technology, we provide a powerful tool for students, researchers, and academics to easily retrieve, analyze, and build upon existing knowledge.
-
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/" className="group">
-                <button className="bg-blue-500 text-white px-8 py-3 rounded-lg gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 flex items-center">
-                  Get Started
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 group-hover:translate-x-1 transition-transform">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </button>
-              </Link>
-              <Link href="/about">
-                <button className="border border-primary text-blue-500 px-8 py-3 rounded-lg gap-2 hover:bg-blue-500/10 flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
-                  </svg>
-                  About us
-                </button>
-              </Link>
-            </div>
-
-            {/* Feature badges */}
-            <div className="flex flex-wrap gap-4 pt-4">
-              <div className="border border-gray-300 rounded-full px-4 py-2 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+          <motion.div className="flex flex-col sm:flex-row gap-4" variants={itemVariants}>
+            <Link href="/" className="group">
+              <button className="bg-blue-500 text-white px-8 py-3 rounded-lg gap-2 transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 flex items-center">
+                Get Started
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
-                Digitization              </div>
-              <div className="border border-gray-300 rounded-full px-4 py-2 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-                </svg>
-                Central Repository
-                </div>
-              <div className="border border-gray-300 rounded-full px-4 py-2 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
-                </svg>
-                Retrieval              </div>
-            </div>
-          </div>
+              </button>
+            </Link>
+            <Link href="/about">
+              <button className="border border-primary text-blue-500 px-8 py-3 rounded-lg gap-2 hover:bg-blue-500/10 flex items-center">
+                About us
+              </button>
+            </Link>
+          </motion.div>
+        </motion.div>
 
-        <div className="md:w-5/12 lg:w-1/3 ">
+        <motion.div className="md:w-5/12 lg:w-1/3" variants={imageVariants}>
           <Image
             src={heroPic}
             alt="Hero Image"
             loading="lazy"
             className="rounded-3xl"
           />
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
